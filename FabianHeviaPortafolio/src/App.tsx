@@ -20,12 +20,15 @@ function App() {
 
     initializeCarousel();
   }, []);
+
+  
   return (
       <div>
 
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12 mx-auto" style={{ backgroundColor:'black' }}>
+            <div className="col-md-6 col-sm-12 mx-auto" style={{ backgroundColor:'rgb(25,25,25)' }}>
+
               <img className="position-relative translate-middle-x start-50 mt-5 mb-5" src="vite.svg"></img>
               
               <div>
@@ -41,13 +44,16 @@ function App() {
                 </div>
               </div>
 
-              <div id="carouselExampleFade" className="carousel slide carousel-fade">
+            <div className="scrollstrange">
+              <br></br>
+              <h1 className="text-center mt-5" style={{color:'white'}}>Proyectos</h1>
+              <div id="carouselExampleFade" className="carousel carousel-dark slide slide carousel-fade">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <img src="vite.svg" className="d-block w-100" alt="imagen1"></img>
                   </div>
                   <div className="carousel-item">
-                    <img src="vite.svg" className="d-block w-100" alt="imagen2"></img>
+                    <img src="react.svg" className="d-block w-100" alt="imagen2"></img>
                   </div>
                   <div className="carousel-item">
                     <img src="vite.svg" className="d-block w-100" alt="imagen3"></img>
@@ -63,9 +69,18 @@ function App() {
                 </button>
               </div>
             </div>
+
+
+              <div className="row d-flex mt-5 scrollstrange">
+                <div className="col-12">
+                  <h3 className="text-center" style={{color:'white'}}>Contacto</h3>
+                </div>
+              </div>
+
+
           </div>
         </div>
-
+      </div>
       </div>
   )
 }
