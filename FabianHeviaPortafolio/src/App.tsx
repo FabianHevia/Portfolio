@@ -21,7 +21,7 @@ function App() {
                 </div>
                 <div className="col-8 mt-5">
                   <h5 style={{color:'white'}}>Estudiante Unab</h5>
-                  <h5 style={{color:'white'}}>Linkedin</h5>
+                  <h5 style={{color:'white'}}><a className="badge-base__link LI-simple-link" href="https://cl.linkedin.com/in/fabianhevia/en?trk=profile-badge">LinkedIn</a></h5>
                   <h5 style={{color:'white'}}>Curriculum</h5>
                 </div>
               </div>
